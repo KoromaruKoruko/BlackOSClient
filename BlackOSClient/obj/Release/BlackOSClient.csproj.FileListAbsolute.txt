@@ -1,0 +1,7 @@
+C:\Users\BAILEY\documents\visual studio 2017\Projects\BlackOSClient\BlackOSClient\bin\Release\BlackOSClient.exe.config
+C:\Users\BAILEY\documents\visual studio 2017\Projects\BlackOSClient\BlackOSClient\bin\Release\BlackOSClient.exe
+C:\Users\BAILEY\documents\visual studio 2017\Projects\BlackOSClient\BlackOSClient\bin\Release\BlackOSClient.pdb
+C:\Users\BAILEY\documents\visual studio 2017\Projects\BlackOSClient\BlackOSClient\obj\Release\BlackOSClient.csproj.CoreCompileInputs.cache
+C:\Users\BAILEY\documents\visual studio 2017\Projects\BlackOSClient\BlackOSClient\obj\Release\BlackOSClient.exe
+C:\Users\BAILEY\documents\visual studio 2017\Projects\BlackOSClient\BlackOSClient\obj\Release\BlackOSClient.pdb
+C:\Users\BAILEY\documents\visual studio 2017\Projects\BlackOSClient\BlackOSClient\obj\Release\BlackOSClient.csprojResolveAssemblyReference.cache
