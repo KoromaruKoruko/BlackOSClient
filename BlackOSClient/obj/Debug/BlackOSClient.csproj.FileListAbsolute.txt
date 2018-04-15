@@ -4,4 +4,3 @@ c:\users\bailey\documents\visual studio 2017\Projects\BlackOSClient\BlackOSClien
 c:\users\bailey\documents\visual studio 2017\Projects\BlackOSClient\BlackOSClient\obj\Debug\BlackOSClient.csproj.CoreCompileInputs.cache
 c:\users\bailey\documents\visual studio 2017\Projects\BlackOSClient\BlackOSClient\obj\Debug\BlackOSClient.exe
 c:\users\bailey\documents\visual studio 2017\Projects\BlackOSClient\BlackOSClient\obj\Debug\BlackOSClient.pdb
-c:\users\bailey\documents\visual studio 2017\Projects\BlackOSClient\BlackOSClient\obj\Debug\BlackOSClient.csprojResolveAssemblyReference.cache
