@@ -52,8 +52,8 @@ namespace BlackOSClient
         }
         private static void Boot_UserOperations()
         {
-            string Host = "??";
-            Host = GetHost();
+            string Host = "192.168.178.26";
+            //Host = GetHost();
             ClientCommands.INIT();
             if (CommandSender.INIT(Host))
             {

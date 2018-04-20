@@ -51,24 +51,30 @@ namespace BlackOSClient
                 conn.Soc.BeginSend(BitConverter.GetBytes((UInt16)0), 0, 2, SocketFlags.None, new AsyncCallback(SendCallBack), conn);
                 conn.allDone.WaitOne();
                 Thread.Sleep(100);
-                conn.Soc.BeginReceive(conn.buffer, 0, 2, SocketFlags.None, new AsyncCallback(SendCallBack), conn);
-                conn.allDone.WaitOne();
+                conn.buffer = new byte[2];
+                conn.Soc.Receive(conn.buffer);
                 Int16 Resp = BitConverter.ToInt16(conn.buffer, 0);
                 switch (Resp)
                 {
                     case (1):
+                        conn.buffer = new byte[BufferSize];
                         RipCommands(conn, Display);
                         conn.FullyDone.WaitOne();
                         return true;
+
                     case (2):
                         Console.WriteLine("Failed to Get CommandList Return:Invalid Args");
                         return false;
+
                     case (3):
                         Console.WriteLine("Failed to Get CommandList Return:Invalid Command Code");
                         return false;
+
                     default:
                         Console.WriteLine("Invalid Response Code");
                         Console.WriteLine("Response code:" + Resp);
+                        Console.WriteLine($"DataBuffer: [0]:{conn.buffer[0]},[1]:{conn.buffer[1]}");
+                        Console.WriteLine($"DataBufferSize:{conn.buffer.Length}");
                         return false;
                 }
             }
